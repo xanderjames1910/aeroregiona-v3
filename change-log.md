@@ -30,3 +30,9 @@ Cambios realizados por: james
 - Se implementa Font Awesome
 - Se actualizan rutas de imágenes
 
+## 2026-02-20 14:37:53
+
+Cambios realizados por: james
+
+- Arreglar visualización del logo en el header
+

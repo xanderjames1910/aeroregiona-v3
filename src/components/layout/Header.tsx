@@ -35,7 +35,7 @@ const Header = () => {
         {/* Logo */}
         <a href="/" className="flex items-center gap-2 shrink-0">
           <Image
-            src="/aeroregional-logo.png"
+            src="/images/aeroregional-logo.png"
             alt="Aeroregional"
             width={300}
             height={60}
