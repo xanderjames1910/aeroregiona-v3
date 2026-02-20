@@ -17,3 +17,9 @@ Cambios realizados por: james
 - Se implementa contacto para aparecer en VOAR
 - Se implementa sección de Formas de pago
 
+## 2026-02-20 14:18:18
+
+Cambios realizados por: james
+
+- Se cambia el formato de las imágenes
+

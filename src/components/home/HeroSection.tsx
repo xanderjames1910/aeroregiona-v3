@@ -8,11 +8,11 @@ import { sileo } from "sileo";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import {
-    Select,
-    SelectContent,
-    SelectItem,
-    SelectTrigger,
-    SelectValue,
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
 } from "@/components/ui/select";
 
 const cities = ["Quito", "Loja", "Coca", "Machala", "Panamá", "Punta Cana", "Maracaibo"];
@@ -59,7 +59,7 @@ const HeroSection = () => {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/hero-bg.jpg"
+          src="/images/home/hero-bg.webp"
           alt="Vista aérea de Ecuador"
           fill
           priority
