@@ -72,7 +72,7 @@ export default function VoarMagazine() {
 									>
 										Nombre de tu empresa
 									</label>
-									<div className='flex gap-3'>
+									<div className='flex flex-col sm:flex-row gap-3'>
 										<Input
 											id='company'
 											type='text'
@@ -80,13 +80,14 @@ export default function VoarMagazine() {
 											value={companyName}
 											onChange={(e) => setCompanyName(e.target.value)}
 											required
-											className='h-12 bg-background border-border focus-visible:ring-sky text-foreground placeholder:text-muted-foreground rounded-xl'
+											className='h-12 bg-background border-border focus-visible:ring-sky text-foreground placeholder:text-muted-foreground rounded-xl w-full'
 										/>
 										<Button
 											type='submit'
-											className='h-12 w-12 shrink-0 p-0 flex items-center justify-center bg-accent hover:bg-accent/90 text-accent-foreground font-semibold rounded-xl shadow-gold hover:shadow-none transition-all'
+											className='h-12 w-full sm:w-auto px-6 flex items-center justify-center bg-accent hover:bg-accent/90 text-accent-foreground font-semibold rounded-xl shadow-gold hover:shadow-none transition-all'
 										>
-											<SendHorizonal className='w-5 h-5' />
+											<SendHorizonal className='w-5 h-5 sm:mr-2' />
+											<span className='sm:hidden'>Enviar</span>
 										</Button>
 									</div>
 									<p className='text-xs text-muted-foreground mt-3 flex items-center gap-1.5'>

@@ -1,5 +1,7 @@
 import Image from "next/image";
-import { Phone, Mail, MapPin, Facebook, Instagram } from "lucide-react";
+import { Phone, Mail, MapPin } from "lucide-react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
@@ -16,7 +18,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="inline-flex bg-white rounded-xl p-3 mb-6">
-              <Image src="/aeroregional-logo.png" alt="Aeroregional" width={300} height={60} className="h-8 md:h-10 w-auto" />
+              <Image src="/images/aeroregional-logo.png" alt="Aeroregional" width={300} height={60} className="h-8 md:h-10 w-auto" />
             </div>
             <p className="text-sm text-primary-foreground/60 leading-relaxed mb-6">
               Aerolínea regional del Ecuador. Conectamos los destinos más importantes del país y la región.
@@ -27,14 +29,14 @@ const Footer = () => {
                 className="w-9 h-9 rounded-lg bg-primary-foreground/10 flex items-center justify-center hover:bg-sky/20 transition-colors text-primary-foreground/70 hover:text-sky"
                 aria-label="Facebook"
               >
-                <Facebook className="w-4 h-4" />
+                <FontAwesomeIcon icon={faFacebook} className="w-4 h-4" />
               </a>
               <a
                 href="#"
                 className="w-9 h-9 rounded-lg bg-primary-foreground/10 flex items-center justify-center hover:bg-sky/20 transition-colors text-primary-foreground/70 hover:text-sky"
                 aria-label="Instagram"
               >
-                <Instagram className="w-4 h-4" />
+                <FontAwesomeIcon icon={faInstagram} className="w-4 h-4" />
               </a>
             </div>
           </div>

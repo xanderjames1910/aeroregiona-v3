@@ -23,3 +23,10 @@ Cambios realizados por: james
 
 - Se cambia el formato de las imágenes
 
+## 2026-02-20 14:27:00
+
+Cambios realizados por: james
+
+- Se implementa Font Awesome
+- Se actualizan rutas de imágenes
+
