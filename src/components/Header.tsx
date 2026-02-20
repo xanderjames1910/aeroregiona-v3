@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Phone, Plane } from "lucide-react";
@@ -33,9 +34,12 @@ const Header = () => {
       <div className="container flex items-center justify-between h-16 md:h-20">
         {/* Logo */}
         <a href="/" className="flex items-center gap-2 shrink-0">
-          <img
+          <Image
             src="/aeroregional-logo.png"
             alt="Aeroregional"
+            width={300}
+            height={60}
+            priority
             className="h-10 md:h-12 w-auto"
           />
         </a>

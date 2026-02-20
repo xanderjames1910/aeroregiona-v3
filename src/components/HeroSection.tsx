@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { Plane, ArrowRight, Luggage, Briefcase } from "lucide-react";
 import { sileo } from "sileo";
 import { Button } from "@/components/ui/button";
@@ -57,11 +58,12 @@ const HeroSection = () => {
     <section id="vuelos" className="relative min-h-screen flex items-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0">
-        <img
+        <Image
           src="/hero-bg.jpg"
           alt="Vista aérea de Ecuador"
-          className="w-full h-full object-cover"
-          loading="eager"
+          fill
+          priority
+          className="object-cover"
         />
         <div className="absolute inset-0 bg-linear-to-r from-navy-dark/75 via-navy/50 to-sky/10" />
         <div className="absolute inset-0 bg-linear-to-t from-navy-dark/30 via-transparent to-navy/20" />

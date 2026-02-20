@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Phone, Mail, MapPin, Facebook, Instagram } from "lucide-react";
 
 const Footer = () => {
@@ -14,7 +15,9 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand */}
           <div>
-            <img src="/aeroregional-logo.png" alt="Aeroregional" className="h-10 mb-4" />
+            <div className="inline-flex bg-white rounded-xl p-3 mb-6">
+              <Image src="/aeroregional-logo.png" alt="Aeroregional" width={300} height={60} className="h-8 md:h-10 w-auto" />
+            </div>
             <p className="text-sm text-primary-foreground/60 leading-relaxed mb-6">
               Aerolínea regional del Ecuador. Conectamos los destinos más importantes del país y la región.
             </p>
