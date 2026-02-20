@@ -1,10 +1,13 @@
-import Header from "@/components/Header";
-import HeroSection from "@/components/HeroSection";
-import DestinationsSection from "@/components/DestinationsSection";
+import Header from "@/components/layout/Header";
+import HeroSection from "@/components/home/HeroSection";
+import DestinationsSection from "@/components/home/DestinationsSection";
+import VoarMagazine from "@/components/home/VoarMagazine";
+import PaymentMethodsSection from "@/components/home/PaymentMethodsSection";
 
-import BenefitsSection from "@/components/BenefitsSection";
-import InfoSection from "@/components/InfoSection";
-import Footer from "@/components/Footer";
+
+import BenefitsSection from "@/components/home/BenefitsSection";
+import InfoSection from "@/components/home/InfoSection";
+import Footer from "@/components/layout/Footer";
 
 const Index = () => {
   return (
@@ -12,9 +15,11 @@ const Index = () => {
       <Header />
       <main>
         <HeroSection />
+        <VoarMagazine />
         <DestinationsSection />
         <BenefitsSection />
         <InfoSection />
+        <PaymentMethodsSection />
       </main>
       <Footer />
     </div>

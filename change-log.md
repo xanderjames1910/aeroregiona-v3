@@ -10,3 +10,10 @@ Cambios realizados por: james
 
 - Se actualizan las imágenes al componente Image de Next
 
+## 2026-02-20 14:12:02
+
+Cambios realizados por: james
+
+- Se implementa contacto para aparecer en VOAR
+- Se implementa sección de Formas de pago
+

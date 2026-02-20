@@ -7,42 +7,42 @@ import { MapPin, ArrowRight } from "lucide-react";
 const destinations = [
   {
     name: "Panamá",
-    image: "/cities/dest-panama.jpg",
+    image: "/images/home/cities/dest-panama.jpg",
     price: 225,
     routes: "Quito · Loja · Coca · Machala",
     tag: "Internacional",
   },
   {
     name: "Quito",
-    image: "/cities/dest-quito.jpg",
+    image: "/images/home/cities/dest-quito.jpg",
     price: 110,
     routes: "Machala · Loja · Coca · Panamá",
     tag: "Nacional",
   },
   {
     name: "Loja",
-    image: "/cities/dest-loja.jpg",
+    image: "/images/home/cities/dest-loja.jpg",
     price: 110,
     routes: "Quito · Coca · Machala · Panamá",
     tag: "Nacional",
   },
   {
     name: "Coca",
-    image: "/cities/dest-coca.jpeg",
+    image: "/images/home/cities/dest-coca.jpeg",
     price: 110,
     routes: "Quito · Loja · Machala · Panamá",
     tag: "Amazonía",
   },
   {
     name: "Machala",
-    image: "/cities/dest-machala.jpg",
+    image: "/images/home/cities/dest-machala.jpg",
     price: 110,
     routes: "Quito · Loja · Coca · Panamá",
     tag: "Nacional",
   },
   {
     name: "Punta Cana",
-    image: "/cities/dest-puntacana.jpg",
+    image: "/images/home/cities/dest-puntacana.jpg",
     price: 340,
     routes: "Quito · Loja · Coca · Machala",
     tag: "Caribe",
@@ -51,7 +51,7 @@ const destinations = [
 
 const DestinationsSection = () => {
   return (
-    <section id="destinos" className="py-20 md:py-28 bg-background">
+		<section id="destinos" className="scroll-mt-20 md:scroll-mt-28 pt-6 pb-20 md:pt-0 md:pb-28 bg-background">
       <div className="container">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
