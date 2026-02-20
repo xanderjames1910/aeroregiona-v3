@@ -36,3 +36,9 @@ Cambios realizados por: james
 
 - Arreglar visualización del logo en el header
 
+## 2026-02-20 14:43:42
+
+Cambios realizados por: james
+
+- Se actualiza el hero image
+
