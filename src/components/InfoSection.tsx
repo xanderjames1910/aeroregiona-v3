@@ -48,9 +48,9 @@ const InfoSection = () => {
           {infoItems.map((item, i) => (
             <motion.div
               key={item.title}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              initial={{ y: 20 }}
+              whileInView={{ y: 0 }}
+              viewport={{ once: true, amount: 0.1 }}
               transition={{ delay: i * 0.1 }}
               className="bg-card rounded-2xl p-6 shadow-card hover:shadow-card-hover transition-all duration-300 group cursor-pointer text-center"
             >

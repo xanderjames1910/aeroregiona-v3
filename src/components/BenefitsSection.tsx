@@ -58,9 +58,9 @@ const BenefitsSection = () => {
           {benefits.map((b, i) => (
             <motion.div
               key={b.title}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              initial={{ y: 20 }}
+              whileInView={{ y: 0 }}
+              viewport={{ once: true, amount: 0.1 }}
               transition={{ delay: i * 0.08 }}
               className="glass rounded-2xl p-6 hover:bg-primary-foreground/8 transition-all duration-300 group"
             >

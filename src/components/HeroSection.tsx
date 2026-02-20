@@ -7,11 +7,11 @@ import { sileo } from "sileo";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import {
-   Select,
-   SelectContent,
-   SelectItem,
-   SelectTrigger,
-   SelectValue,
+    Select,
+    SelectContent,
+    SelectItem,
+    SelectTrigger,
+    SelectValue,
 } from "@/components/ui/select";
 
 const cities = ["Quito", "Loja", "Coca", "Machala", "Panamá", "Punta Cana", "Maracaibo"];
@@ -71,8 +71,8 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left: Heading */}
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
+            initial={{ y: 30 }}
+            animate={{ y: 0 }}
             transition={{ duration: 0.7 }}
           >
             <p className="text-sky font-semibold text-sm tracking-widest uppercase mb-4">
@@ -108,8 +108,8 @@ const HeroSection = () => {
 
           {/* Right: Flight Search */}
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
+            initial={{ y: 30 }}
+            animate={{ y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
           >
             <div className="rounded-2xl p-6 md:p-8 bg-navy-dark/70 backdrop-blur-2xl border border-white/20 shadow-2xl">

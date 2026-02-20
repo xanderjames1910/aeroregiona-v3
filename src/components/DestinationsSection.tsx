@@ -70,10 +70,10 @@ const DestinationsSection = () => {
           {destinations.map((dest, i) => (
             <motion.div
               key={dest.name}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: i * 0.1 }}
+              initial={{ y: 25 }}
+              whileInView={{ y: 0 }}
+              viewport={{ once: true, amount: 0.1 }}
+              transition={{ delay: i * 0.08 }}
               className="group relative rounded-2xl overflow-hidden shadow-card hover:shadow-card-hover transition-all duration-500 cursor-pointer"
             >
               {/* Image */}
